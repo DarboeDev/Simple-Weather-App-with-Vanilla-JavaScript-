@@ -1,6 +1,7 @@
 # WeatherProjec
 
-![mobile](https://github.com/DarboeDev/WeatherProject/assets/125799918/2e0d8b5d-0d74-414c-83e3-adcd5ace1455)
+![mobile (1)](https://github.com/DarboeDev/Simple-Weather-App-with-Vanilla-JavaScript-/assets/125799918/e23f590e-c833-4cc4-8ee5-2234384f8d47)
+
 
 
 ## Description
