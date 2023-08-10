@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="input-section">
+                <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input id="input-box" type="text" placeholder="Search for a city...">
+            </div>
+            <div class="temp-type">
+                <button id="celsius">°C</button>
+            </div>
+        </header>
+        <main>
+            <div class="location">
+                <h1 id="city-country"></h1>
+            </div>
+            <div class="date-time">
+                <p id="date-and-time">Wednesday, August 9 at 4:40 PM</p>
+            </div>
+            <div class="weather-img">
+                <p id="type-of-weather"></p>
+                <img id="weather-image" src="images/clouds.png" alt="">
+            </div>
+            <div class="temp-display">
+                <h3><span id="temp"></span>°C</h3>
+                <div class="min-max">
+                    <p>Min: <span id="min"></span>°C</p>
+                    <p>Max: <span id="max"></span>°C</p>
+                </div>
+            </div>
+            <div class="weather-info">
+                <div class="info">
+                    <i class="fa-solid fa-temperature-half fa-2x"></i>
+                    <div>
+                        <p id="real-feel">Real Feel</p>
+                        <p id="real-feel-temp"></p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-droplet fa-2x"></i>
+                    <div>
+                        <p id="humidity">Humidity</p>
+                        <p><span id="humidity-percentage"></span>%</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-wind fa-2x"></i>
+                    <div>
+                        <p id="wind">Wind</p>
+                        <p><span id="wind-speed"></span> m/s</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-gauge-high fa-2x"></i>
+                    <div>
+                        <p id="pressure">Pressure</p>
+                        <p><span id="pressure-level"></span> hPa</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/03b4b347cb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
